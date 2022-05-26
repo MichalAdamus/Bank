@@ -1,0 +1,29 @@
+1. stwórz issue 
+
+2. jeśli nie masz projektu lokalnie, to
+git clone ADRES_URL
+
+3. przejdź na branch develop
+git checkout develop
+
+4. pobierz zmiany
+git pull origin develop
+
+5. stwórz branch dla zadania
+git checkout -b feature-NR_ZADANIA
+
+6. tworzysz program
+git add .
+git commit -m "#NR_ZADANIA OPIS"
+
+7. po stworzeniu zadania
+git push origin feature-NR_ZADANIA
+
+8. tworzysz pull request
+do develop <- feature-NR_ZADANIA
+
+9. code review
+
+10. klikasz w github "merge"
+
+11. zamknij issue
